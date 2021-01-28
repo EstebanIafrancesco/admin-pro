@@ -1,16 +1,28 @@
 <div class="row">
   <div class="col-6">
-    <app-donut></app-donut>
+    <app-donut title="Ventas"
+               >
+    </app-donut>
   </div>
   <div class="col-6">
-    <app-donut></app-donut>
+    <app-donut title="Compras"
+               [labels]="labels1"
+               [data]="data1"
+               >
+    </app-donut>
   </div>
 </div>
 <div class="row">
   <div class="col-6">
-    <app-donut></app-donut>
+    <app-donut title="Cambios"
+               >
+    </app-donut>
   </div>
   <div class="col-6">
-    <app-donut></app-donut>
+    <app-donut title="Devoluciones"
+               [labels]="labels2"
+               [data]="data2"
+               >
+    </app-donut>
   </div>
 </div>
